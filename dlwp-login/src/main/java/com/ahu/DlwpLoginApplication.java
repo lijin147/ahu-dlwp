@@ -4,8 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DlwpDemoApplication {
+public class DlwpLoginApplication {
+
     public static void main(String[] args) {
-        SpringApplication.run(DlwpDemoApplication.class, args);
+        SpringApplication.run(DlwpLoginApplication.class, args);
     }
+
 }

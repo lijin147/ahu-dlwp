@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: dlwp_login
+
+
+
+dlwp:
+  jwt:
+    secretKey: dlwp
+    ttl: 7200000
+    tokenName: "Authorization"
